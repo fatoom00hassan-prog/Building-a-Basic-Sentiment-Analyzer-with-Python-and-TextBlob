@@ -55,3 +55,9 @@ The main objectives of this project are:
    - Polarity > 0.2 → Positive
 6. Sentiment distribution was analyzed and visualized using Matplotlib.
 
+## Project Context
+
+This project was developed as a group assignment for the course ARTI 402 – Programming for AI at Imam Abdulrahman Bin Faisal University.
+
+My Role: Sentiment Model Development & Analysis
+
