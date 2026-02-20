@@ -38,6 +38,7 @@ The main objectives of this project are:
 - Source: Kaggle
 - Dataset: Amazon Reviews (Unlocked Mobile Phones)
 - Type: Customer review text data
+- Access Method: The dataset is automatically downloaded using KaggleHub when running the notebook.
 
 
 
