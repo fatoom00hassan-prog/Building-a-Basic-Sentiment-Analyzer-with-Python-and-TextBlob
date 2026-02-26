@@ -9,6 +9,7 @@ The system calculates polarity scores using TextBlob and applies custom classifi
 ---
 ## Project Structure
 
+```
 Building-a-Basic-Sentiment-Analyzer-with-Python-and-TextBlob/
 
 ├── images/                          # Visualization outputs
@@ -20,6 +21,7 @@ Building-a-Basic-Sentiment-Analyzer-with-Python-and-TextBlob/
 │                                       # Main Jupyter Notebook (data processing & analysis)
 │
 └── README.md                         # Project documentation
+```
 
 
 
