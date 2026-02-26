@@ -7,7 +7,19 @@ This project implements an automated sentiment analysis system to classify 1,448
 The system calculates polarity scores using TextBlob and applies custom classification thresholds to generate data-driven insights that support e-commerce decision-making.
 
 ---
+## Project Structure
 
+Building-a-Basic-Sentiment-Analyzer-with-Python-and-TextBlob/
+
+├── images/                          # Visualization outputs
+│   ├── sentiment-bar-chart.png      # Bar chart of sentiment distribution
+│   ├── sentiment-pie-chart.png      # Pie chart of sentiment percentages
+│   └── polarity-histogram.png       # Polarity score distribution histogram
+│
+├── Building a Basic Sentiment Analyzer with Python & TextBlob.ipynb
+│                                       # Main Jupyter Notebook (data processing & analysis)
+│
+└── README.md                         # Project documentation
 
 
 
