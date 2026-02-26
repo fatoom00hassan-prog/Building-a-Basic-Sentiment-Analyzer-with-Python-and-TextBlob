@@ -8,6 +8,18 @@ The system calculates polarity scores using TextBlob and applies custom classifi
 
 ---
 
+## Project Structure
+
+├── images/
+│   ├── sentiment-bar-chart.png
+│   ├── sentiment-pie-chart.png
+│   └── polarity-histogram.png
+│
+├── Building a Basic Sentiment Analyzer with Python & TextBlob.ipynb
+└── README.md
+
+
+
 ##  Business Problem
 
 Amazon sellers face challenges when manually analyzing large volumes of customer reviews. This process is time-consuming and makes it difficult to identify recurring issues and overall customer satisfaction trends.
