@@ -7,36 +7,30 @@ This project implements an automated sentiment analysis system to classify 1,448
 The system calculates polarity scores using TextBlob and applies custom classification thresholds to generate data-driven insights that support e-commerce decision-making.
 
 ---
-## Project Structure
-
-```
-Building-a-Basic-Sentiment-Analyzer-with-Python-and-TextBlob/
-
-├── images/                          # Visualization outputs
-│   ├── sentiment-bar-chart.png      # Bar chart of sentiment distribution
-│   ├── sentiment-pie-chart.png      # Pie chart of sentiment percentages
-│   └── polarity-histogram.png       # Polarity score distribution histogram
-│
-├── Building a Basic Sentiment Analyzer with Python & TextBlob.ipynb
-│                                       # Main Jupyter Notebook (data processing & analysis)
-│
-└── README.md                         # Project documentation
-```
 
 
 
+## Problem Statement
 
-##  Business Problem
+Amazon sellers struggle to manually analyze large volumes of customer reviews. This process is time-consuming, inconsistent, and makes it difficult to detect recurring issues and overall customer satisfaction trends.
 
-Amazon sellers face challenges when manually analyzing large volumes of customer reviews. This process is time-consuming and makes it difficult to identify recurring issues and overall customer satisfaction trends.
-
-This project provides an automated solution to:
-
-- Measure overall customer satisfaction  
-- Detect recurring product issues  
-- Support data-driven improvement decisions  
+An automated sentiment analysis system is needed to efficiently classify reviews into Positive, Neutral, and Negative categories. 
 
 ---
+
+
+## AI Solution
+
+The solution was implemented using Python, Pandas, and TextBlob.
+
+A custom sentimentAnalyzer function calculates polarity scores for each review and applies predefined thresholds:
+
+- Polarity < -0.2 → Negative  
+- -0.2 ≤ Polarity ≤ 0.2 → Neutral  
+- Polarity > 0.2 → Positive  
+
+The dataset was processed and visualized using bar charts, pie charts, and polarity distribution histograms to generate actionable insights.
+
 
 ## 📊Key Results
 
@@ -56,18 +50,25 @@ This project provides an automated solution to:
 - Dataset Source: Kaggle (Amazon Unlocked Mobile Phones Reviews)
 
 ---
+## Project Structure
 
-##  Methodology
+```
+Building-a-Basic-Sentiment-Analyzer-with-Python-and-TextBlob/
 
-1. Dataset acquisition using KaggleHub  
-2. Data cleaning and review text preprocessing  
-3. Custom sentiment classification based on polarity thresholds:
-   - Polarity < -0.2 → Negative  
-   - -0.2 ≤ Polarity ≤ 0.2 → Neutral  
-   - Polarity > 0.2 → Positive  
-4. Sentiment distribution analysis and visualization  
+├── images/                          # Visualization outputs
+│   ├── sentiment-bar-chart.png      # Bar chart of sentiment distribution
+│   ├── sentiment-pie-chart.png      # Pie chart of sentiment percentages
+│   └── polarity-histogram.png       # Polarity score distribution histogram
+│
+├── Building a Basic Sentiment Analyzer with Python & TextBlob.ipynb
+│                                       # Main Jupyter Notebook (data processing & analysis)
+│
+└── README.md                         # Project documentation
+```
 
----
+
+
+
 
 ##  Project Context
 
